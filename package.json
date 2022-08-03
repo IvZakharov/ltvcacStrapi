@@ -1,0 +1,36 @@
+{
+  "name": "ltvcac",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.0",
+    "@strapi/plugin-graphql": "^4.2.3",
+    "@strapi/plugin-i18n": "4.2.2",
+    "@strapi/plugin-users-permissions": "4.2.2",
+    "@strapi/strapi": "4.2.2",
+    "better-sqlite3": "7.4.6",
+    "editorjs-text-color-plugin": "^1.13.1",
+    "pg": "^8.7.3",
+    "strapi-plugin-placeholder": "^4.1.7",
+    "strapi-plugin-react-editorjs": "^2.0.1",
+    "strapi-plugin-slugify": "^2.2.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "96c3dcd7-d7b5-41f6-be42-0e8f4c5f635a"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

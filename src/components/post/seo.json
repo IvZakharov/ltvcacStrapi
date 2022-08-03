@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_post_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "maxLength": 160,
+      "minLength": 5
+    },
+    "Description": {
+      "type": "text",
+      "required": false,
+      "minLength": 20,
+      "maxLength": 180
+    },
+    "Keywords": {
+      "type": "string"
+    }
+  }
+}
